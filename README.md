@@ -9,6 +9,9 @@ Also, I have used the following tools from AWS:
   - CodeBuild;
   - S3 bucket;
   - IAM roles;
+  - CloudWatch;
   - NAT & Internet Gateways;
   - VPC;
+  - Elastic IP;
+  - Route Tables; 
   - Public & private subnets;
