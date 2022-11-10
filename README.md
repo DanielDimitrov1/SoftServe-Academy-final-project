@@ -10,3 +10,4 @@ Also, I have used the following tools from AWS:
   - Code Build;
   - S3 bucket;
   - IAM roles;
+  - NAT & Internet Gateways.
