@@ -16,4 +16,4 @@ Also, I have used the following tools from AWS:
   - Route Tables; 
   - Public & private subnets;
 
--> A graphical presentation about the project is coming soon!!
+-> A graphical presentation of the project is coming soon!!
