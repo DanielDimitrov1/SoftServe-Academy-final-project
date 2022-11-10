@@ -2,7 +2,7 @@
 
 This repository contains my final project in SoftServe Academy. 
 I used Terraform for Infrastructure as Code (IaC).
-Also, I have used the following tools from AWS:
+Also, I have used the following tools and services from AWS:
 
   - Load balancer;
   - ECS & ECR;
