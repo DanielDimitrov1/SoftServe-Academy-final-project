@@ -26,5 +26,5 @@ variable "env" {
 
 variable "name_container" {
   description = "The container name"
-  default     = "nginx"
+  default     = "container"
 }
