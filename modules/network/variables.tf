@@ -1,4 +1,3 @@
-#General Data
 data "aws_region" "current" {}
 
 data "aws_availability_zones" "available" {
@@ -8,7 +7,7 @@ data "aws_availability_zones" "available" {
 #General Variables
 variable "env" {
   description = "The environment of the project"
-  default     = "test"
+  default     = "project"
 }
 
 variable "app" {
@@ -66,7 +65,7 @@ locals {
 
 variable "name_container" {
   description = "The container name"
-  default     = "nginx"
+  default     = "container"
 }
 
 #Variables for ECS
@@ -99,9 +98,6 @@ variable "web_server_fargate_memory" {
   description = "Fargate instance memory to provision for web server (in MiB)"
   default     = 512
 }
-
-
-
 
 variable "ecr_repository_url" {
   type = string
