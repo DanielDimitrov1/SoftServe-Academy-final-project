@@ -5,7 +5,7 @@ data "aws_availability_zones" "available" {
 }
 variable "env" {
   description = "The environment of the project"
-  default     = "test"
+  default     = "project"
 }
 
 variable "app" {
@@ -28,7 +28,7 @@ locals {
 
 variable "name_container" {
   description = "The container name"
-  default     = "nginx"
+  default     = "container"
 }
 variable "web_server_image" {
   description = "The web server image to run in the ECS cluster"
