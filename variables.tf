@@ -41,7 +41,7 @@ variable "image_tag" {
 
 variable "github_oauth_token" {
   type    = string
-  default = ""
+  default = "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"
 }
 
 variable "repo_url" {
@@ -58,5 +58,5 @@ variable "git_trigger_event" {
   default = "PUSH"
 }
 variable "app_count" {
-  default = 1
+  default = 3
 }
