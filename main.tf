@@ -28,7 +28,6 @@ module "network" {
   web_server_fargate_cpu    = 1024
   web_server_fargate_memory = 2048
 }
-
 module "ecr" {
   source              = "./modules/ecr"
   aws_region          = var.aws_region
