@@ -4,7 +4,6 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
-#General Variables
 variable "env" {
   description = "The environment of the project"
   default     = "project"
@@ -23,7 +22,6 @@ variable "aws_region" {
 variable "aws_profile" {
   description = "aws profile"
 }
-#Variables for Network
 variable "cidr_block" {
   description = "The CIDR block of the project"
   default     = "10.0.0.0/16"
@@ -40,7 +38,6 @@ locals {
   azs                    = data.aws_availability_zones.available.names
 }
 
-#Variables for Application Load Balancer
 variable "app_port" {
   description = "The application port"
   default     = 80
@@ -56,7 +53,6 @@ variable "health_check_path" {
   default     = "/"
 }
 
-#Variables for ECR
 data "aws_caller_identity" "current" {}
 
 locals {
@@ -68,7 +64,6 @@ variable "name_container" {
   default     = "container"
 }
 
-#Variables for ECS
 variable "ecs_task_execution_role_name" {
   description = "ECS task execution role name"
   default     = "TaskExecutionRole"
@@ -86,17 +81,17 @@ variable "web_server_image" {
 
 variable "web_server_count" {
   description = "Number of web server containers to run"
-  default     = 1
+  default     = 3
 }
 
 variable "web_server_fargate_cpu" {
   description = "Fargate instance CPU units to provision for web server (1 vCPU = 1024 CPU units)"
-  default     = 256
+  default     = 1024
 }
 
 variable "web_server_fargate_memory" {
   description = "Fargate instance memory to provision for web server (in MiB)"
-  default     = 512
+  default     = 2048
 }
 
 variable "ecr_repository_url" {
