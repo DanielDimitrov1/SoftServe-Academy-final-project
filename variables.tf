@@ -41,7 +41,7 @@ variable "image_tag" {
 
 variable "github_oauth_token" {
   type    = string
-  default = "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"
+  default = ""
 }
 
 variable "repo_url" {
