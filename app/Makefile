@@ -3,7 +3,7 @@ REGISTRY_ID ?= 443390603815
 REPOSITORY_REGION ?= eu-central-1
 APP_NAME ?= final
 ENV_NAME ?= project
-NAME_CONTAINER ?= nginx
+NAME_CONTAINER ?= container
 REPO_NAME = $(REGISTRY_ID).dkr.ecr.$(REPOSITORY_REGION).amazonaws.com/${APP_NAME}-${ENV_NAME}-${NAME_CONTAINER}
 
 .PHONY: build
