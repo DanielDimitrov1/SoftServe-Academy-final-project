@@ -1,2 +1,2 @@
-FROM nginx:latest
-COPY ./index.html /usr/share/nginx/html/index.html
+FROM container:latest
+COPY ./index.html /usr/share/container/html/index.html
