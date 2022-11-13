@@ -3,6 +3,7 @@ variable "bucket_name" {
   description = "S3 Bucket name"
   default     = "lastattpemtbeforesunrise"
 }
+
 variable "aws_region" {
   default = "eu-central-1"
 }
@@ -39,6 +40,7 @@ variable "image_tag" {
   default = "0.0.1"
 }
 
+
 variable "github_oauth_token" {
   type    = string
   default = ""
@@ -53,10 +55,12 @@ variable "branch_pattern" {
   type    = string
   default = "main"
 }
+
 variable "git_trigger_event" {
   type    = string
   default = "PUSH"
 }
+
 variable "app_count" {
   default = 3
 }
