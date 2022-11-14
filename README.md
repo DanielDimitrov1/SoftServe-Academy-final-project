@@ -12,7 +12,7 @@ For reaching this goal, I used the following tools:
 # Description:
 
 
-I built this project with Terraform and Amazon Web Services - AWS. I chose this path because of the numerous benefits that these platforms provide. According to the best experts in the DevOps field, Infrastructure as a Code is the leading approach to managing data center server, storage, and networking infrastructure. IaC is means to significantly simplify large-scale configuration and management. 
+I built this project using Terraform and Amazon Web Services - AWS. I chose this path because of the numerous benefits that these platforms provide. According to the best experts in the DevOps field, Infrastructure as a Code is the leading approach to managing data center server, storage, and networking infrastructure. IaC is means to significantly simplify large-scale configuration and management. 
 
 
 My project contains a web application, Terraform modules, root Terraform modules, and configuration files to create an infrastructure.
