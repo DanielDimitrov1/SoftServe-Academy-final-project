@@ -73,12 +73,13 @@ Preparation
 
 The deployment of such infrastructure is not a simple process. We have to do several steps in order to deploy the project effectively and efficiently.
 
+First:
  - Add AWS AIM user credentials to ~/.aws/credentials
 [default]
 aws_access_key_id = YOUR AWS ACCESS KEY ID
 aws_secret_access_key = YOUR AWS SECRET ACCESS KEY
 
-Steps
+Following steps:
 
 - Comment backend "s3" in ./terraform/backend.tf file
 terraform init
