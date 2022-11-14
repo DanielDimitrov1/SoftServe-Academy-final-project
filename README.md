@@ -12,7 +12,7 @@ For reaching this goal, I used the following tools:
 # Description:
 
 
-I built this project with Terraform and Amazon Web Services - AWS. I decided to go in this way for several advantages that these platforms offer. According to the best experts in the DevOps field, Infrastructure as a Code is the leading approach to managing data center server, storage, and networking infrastructure. IaC is means to significantly simplify large-scale configuration and management. 
+I built this project with Terraform and Amazon Web Services - AWS. I chose this path because of the numerous benefits that these platforms provide. According to the best experts in the DevOps field, Infrastructure as a Code is the leading approach to managing data center server, storage, and networking infrastructure. IaC is means to significantly simplify large-scale configuration and management. 
 
 
 My project contains a web application, Terraform modules, root Terraform modules, and configuration files to create an infrastructure.
@@ -65,8 +65,6 @@ Preparation
  - Create Github token
  - Create secret.tfvars and add next content "github_oauth_token = YOUR GITHUB TOKEN"
  - Change variable values in *.tfvars
-
-
 
 
 
