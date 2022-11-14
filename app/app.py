@@ -2,7 +2,6 @@ from flask import Flask, render_template
 import random
 app = Flask(__name__)
 
-# list of cat images
 images = [
   "https://sentralservers.files.wordpress.com/2016/08/watching-the-console-whilst-rebooting-a-server-at-3am.gif"
 ]
