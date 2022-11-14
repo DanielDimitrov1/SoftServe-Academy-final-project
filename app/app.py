@@ -3,8 +3,11 @@ import random
 app = Flask(__name__)
 
 images = [
-  "https://sentralservers.files.wordpress.com/2016/08/watching-the-console-whilst-rebooting-a-server-at-3am.gif"
+  "https://media.tenor.com/CidTbb4N1mUAAAAM/chill-beach-life.gif",
+  "https://media.tenor.com/f8-_uMdpE2sAAAAM/tenerife.gif",
+  "https://media.tenor.com/4qU73Lkgy4YAAAAM/migration-safari-tours-nature.gif"
 ]
+
 @app.route('/')
 def index():
   url = random.choice(images)
