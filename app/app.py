@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 images = [
   "https://media.tenor.com/CidTbb4N1mUAAAAM/chill-beach-life.gif",
-  "https://media.tenor.com/f8-_uMdpE2sAAAAM/tenerife.gif",
-  "https://media.tenor.com/4qU73Lkgy4YAAAAM/migration-safari-tours-nature.gif"
+  "https://media0.giphy.com/media/WQxjLKcDsS5aEY60vX/200w.webp?cid=ecf05e47eauitp5faaen2z0lwcr6fdyns034p2qnofzzpdxq&rid=200w.webp&ct=g",
+  "https://media0.giphy.com/media/gKSo8pul2vHIFJCwBz/200w.webp?cid=ecf05e47eauitp5faaen2z0lwcr6fdyns034p2qnofzzpdxq&rid=200w.webp&ct=g"
 ]
 
 @app.route('/')
