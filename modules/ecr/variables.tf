@@ -32,6 +32,6 @@ variable "name_container" {
 }
 variable "web_server_image" {
   description = "The web server image to run in the ECS cluster"
-  default     = "443390603815.dkr.ecr.eu-central-1.amazonaws.com/daniel"
+  default     = "443390603815.dkr.ecr.eu-central-1.amazonaws.com/final-project-container"
 }
 variable "remote_state_bucket" {}
