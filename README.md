@@ -9,7 +9,7 @@ For reaching this goal, here I used the following tools:
 - Docker
 
 
-Description:
+# Description:
 
 
 I built this project with Terraform and Amazon Web Services - AWS. I decided to go in this way for several advantages that these platforms offer. According to the best experts in the DevOps field, Infrastructure as a Code is the leading approach to managing data center server, storage, and networking infrastructure. IaC is means to significantly simplify large-scale configuration and management. 
@@ -30,7 +30,7 @@ For the purpose of this project, I used the following tools and technologies:
   - Codebuild - Creates a Codebuild project
 
 
-Folders and Files
+# Folders and Files
 
  - /app - application directory
 		- Dockerfile - special file, containing script of instructions, to build Docker image
@@ -54,7 +54,7 @@ Folders and Files
 
 
 
-Implemention
+# Implemention
 
 Preparation
 
