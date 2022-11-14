@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-  "https://media2.giphy.com/media/jTMxfXzAohYnkiTZlg/200w.webp?cid=ecf05e47h1ke9bsyx9hp1f1f98yg7x8gucxracvpq7jc1q4g&rid=200w.webp&ct=g"
+  "https://media1.giphy.com/media/BzyTuYCmvSORqs1ABM/giphy.gif?cid=ecf05e47a61pohrnxvkjt8ax30omfxqbla893upt6n822900&rid=giphy.gif&ct=g"
 ]
 @app.route('/')
 def index():
