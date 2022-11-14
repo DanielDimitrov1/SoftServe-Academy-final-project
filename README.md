@@ -2,7 +2,7 @@
 
 Deploying an Application in Docker Container on AWS with Terraform.
 
-For reaching this goal, here I used the following tools:  
+For reaching this goal, I used the following tools:  
 
 - Terraform
 - AWS CLI
