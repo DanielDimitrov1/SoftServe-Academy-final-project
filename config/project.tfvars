@@ -9,4 +9,4 @@ image_tag      = "0.0.1"
 repo_url          = "https://github.com/DanielDimitrov1/final.git"
 branch_pattern    = "^refs/heads/main$"
 git_trigger_event = "PUSH"
-app_count         = 1
+app_count         = 3
