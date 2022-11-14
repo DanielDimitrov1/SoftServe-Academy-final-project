@@ -6,5 +6,5 @@ output "confirmation" {
   value = module.init-build.confirmation
 }
 output "alb_hostname" {
-  value = module.network.alb_hostname
+  value = module.cluster.alb_hostname
 }
