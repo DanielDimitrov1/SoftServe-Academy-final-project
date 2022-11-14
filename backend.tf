@@ -9,7 +9,7 @@ terraform {
 
     backend "s3" {
         encrypt = true
-        bucket  = "final-eu-central-1"
+        bucket  = "lastattpemtbeforesunrise"
         region  = "eu-central-1"
         key     = "state"
     }
