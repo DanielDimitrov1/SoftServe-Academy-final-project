@@ -54,18 +54,6 @@ For the purpose of this project, I used the following tools and technologies:
 
 
 
-# Implemention
-
-Preparation
-
- - Create an account on AWS
- - Create an user with required permissions using AWS IAM
- - Install Terraform, AWS CLI and Docker
- - Download the repo content
- - Create Github token
- - Create secret.tfvars and add next content "github_oauth_token = YOUR GITHUB TOKEN"
- - Change variable values in *.tfvars
-
 
 
 # Deploying process
