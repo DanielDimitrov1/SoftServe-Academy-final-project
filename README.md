@@ -75,16 +75,16 @@ aws_secret_access_key = YOUR AWS SECRET ACCESS KEY
 Following steps:
 
 - Comment backend "s3" in ./terraform/backend.tf file
-terraform init
-terraform apply -target=module.s3_terraform_state --var-file=./config/project.tfvars
+	- terraform init
+	- terraform apply -target=module.s3_terraform_state --var-file=./config/project.tfvars
 
 - Uncomment backend "s3" in ./terraform/backend.tf file
-terraform init
-terraform apply --var-file=./config/project.tfvars --auto-approve
+	- terraform init
+	- terraform apply --var-file=./config/project.tfvars --auto-approve
 
 - Check results
-Go to your AWS account and check created infrastructure resources
-Go to the DNS name created Application Load Balancer and check an information on a web page
+	- Go to your AWS account and check created infrastructure resources
+	- Go to the DNS name created Application Load Balancer and check an information on a web page
 
 ![Screenshot_112](https://user-images.githubusercontent.com/112561988/201911398-bd3a69b0-9d9c-416c-96ac-28bfcb7b5cd9.jpg)
 
