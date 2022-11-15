@@ -69,8 +69,8 @@ The deployment of such infrastructure is not a simple process. We have to do sev
 First:
  - Add AWS AIM user credentials to ~/.aws/credentials
 [default]
-aws_access_key_id = YOUR AWS ACCESS KEY ID
-aws_secret_access_key = YOUR AWS SECRET ACCESS KEY
+	- aws_access_key_id = YOUR AWS ACCESS KEY ID
+	- aws_secret_access_key = YOUR AWS SECRET ACCESS KEY
 
 Following steps:
 
