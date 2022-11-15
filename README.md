@@ -8,7 +8,7 @@ For reaching this goal, I used the following tools:
 - AWS CLI
 - Docker
 
-# Primary goals:
+# Goals:
  - Maximal automation ✅
  - Minimal hard-coding ✅
  - Optimal workflow of the infrastructure ✅
