@@ -1,6 +1,6 @@
 # SoftServe Academy final project
 
-Deploying an Application in Docker Container on AWS with Terraform.
+Deploying an application in docker container on AWS using Terraform.
 
 For reaching this goal, I used the following tools:  
 
