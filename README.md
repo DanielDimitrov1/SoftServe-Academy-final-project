@@ -9,9 +9,9 @@ For reaching this goal, I used the following tools:
 - Docker
 
 # Primary goals:
- - Maximal automation;  
- - Minimal hard-coding;
- - Optimal workflow of the infrastructure![image](https://user-images.githubusercontent.com/112561988/201910995-f51c50aa-8b61-4250-857d-a05b291c7bec.png)
+ - Maximal automation ✅
+ - Minimal hard-coding ✅
+ - Optimal workflow of the infrastructure ✅
 
 
 # Description:
